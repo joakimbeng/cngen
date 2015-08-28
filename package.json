@@ -1,0 +1,33 @@
+{
+  "name": "cngen",
+  "version": "0.1.0",
+  "description": "Generate CSS classnames from declarations, works splendid together with e.g. React",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "ava"
+  },
+  "keywords": [
+    "classname",
+    "generate",
+    "css",
+    "react",
+    "large scale",
+    "scaling"
+  ],
+  "author": "Joakim Carlstein <joakim@klei.se>",
+  "repository": "joakimbeng/cngen",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.1.0",
+    "xo": "^0.7.1"
+  },
+  "dependencies": {
+    "short-hash": "^1.0.0",
+    "to-predictable-string": "^1.0.0"
+  },
+  "xo": {
+    "space": true
+  }
+}
