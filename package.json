@@ -1,6 +1,6 @@
 {
   "name": "cngen",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Generate CSS classnames from declarations, works splendid together with e.g. React",
   "main": "src/index.js",
   "scripts": {
